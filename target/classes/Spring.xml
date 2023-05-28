@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Here we are making spring based application so we need to get configuration 
+	of spring . For that,we use a tag and get the components from the internet 
+	(For Spring Ioc) -->
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="Year2021" class="com.example.Year2021"></bean>
+<bean id="Year2022" class="com.example.Year2022"></bean>
+<bean id="Year2023" class="com.example.Year2023"></bean>
+
+</beans>
+           
+           
